@@ -51,13 +51,13 @@ public class Test1 {
 	public static void main(String[] args) {
         Cylinder c1 = new Cylinder(3,5, 6);
 		c1.move(10,10).print();
-		System.out.println(c1.area());
+		System.out.println(c1.circleArea());
         System.out.println(c1.volume());
         System.out.println(c1.surfaceArea());
 
         Cylinder c2 = new Cylinder(5,8, 10, 5);
         c2.move(12,17).print();
-        System.out.println(c2.area());
+        System.out.println(c2.circleArea());
         System.out.println(c2.volume());
         System.out.println(c2.surfaceArea());
 	}
